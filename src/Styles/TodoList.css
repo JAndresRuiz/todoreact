@@ -1,0 +1,11 @@
+.todosContainer {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.todosContainer ul {
+    list-style: none;
+}

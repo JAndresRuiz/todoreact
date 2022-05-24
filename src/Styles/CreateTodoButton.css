@@ -1,0 +1,26 @@
+.todoButton {
+    width: 70px;
+    height: 70px;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #009688;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.todoButton p {
+    margin-top: 5px
+}
+
+.rotation {
+    transform: rotate(45deg);
+}
